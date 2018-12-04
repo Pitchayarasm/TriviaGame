@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    color:rgba(26,5,6,0.9);
+    overflow: auto;
+  }
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+
+  body {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    position:relative;
+    font-family: 'Neuton', serif;
+  }
+
+  h1 {
+    color:silver;
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  button {
+    font-size: 26px;
+    font-family: 'Neuton', serif;
+    border-radius: 5px;
+    padding-top:5px;
+    padding-bottom:7px;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: silver;
+  }
+
+  button:hover {
+    background-color: rgba(26,5,6,0.9);
+    color:rgba(181,155,93)
+  }
+
+  #startButton {
+    font-family: "cursive";
+    background-color: black;
+    border: 5px solid darkgrey;
+    color: silver;
+    font-size:50px;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    top:45%;
+    left:39%;
+  }
+
+  #startButton:hover {
+    border: 5px solid rgba(181,155,93, 0.8);
+  }
+
+  #container {
+    outline: 5px solid rgba(181,155,93, 0.8);
+    background-color: rgba(243, 245, 247, 1);
+    border: 7px solid rgba(26,5,6);
+    margin: auto;
+    max-width: 40%;
+    max-height: 100%;
+    padding: 20px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 200%;
+    font-size: 30px;
+  }
+
+  #timer {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    padding:5px;
+    border-bottom: 7px solid rgba(26,5,6,0.9);
+  }
+  #pic {
+    width: 400px;
+    height: 300px;
+    border: 7px solid rgba(26,5,6,1);
+  }
